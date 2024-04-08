@@ -70,7 +70,7 @@ namespace Zadanie_1_MichalCengel
             Console.WriteLine("Povolené hodnoty sú od {0} do {1}.", Keno10.MIN_LOS_CISLO, Keno10.MAX_LOS_CISLO);
             for (int i = 0; i < pocetTipov; i++)
             {
-                while (true) //do
+                while (true)
                 {
                     try
                     {
@@ -88,8 +88,7 @@ namespace Zadanie_1_MichalCengel
                         Console.WriteLine(ex.Message);
                         continue;
                     }
-
-                }// while (!(JeUnikatne(tipyCisla, i) && MIN_LOS_CISLO <= tipyCisla[i] && tipyCisla[i] <= MAX_LOS_CISLO));
+                }
             }
             Console.WriteLine();
             Console.Write("Zadal si tieto tipy: ");
